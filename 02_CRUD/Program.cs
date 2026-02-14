@@ -1,0 +1,33 @@
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.Design;
+using System.Diagnostics.Contracts;
+using System.Dynamic;
+using System.IO.Pipelines;
+using System.IO.Pipes;
+using System.Net.Security;
+using System.Net.WebSockets;
+using System.Reflection.Metadata;
+using System.Reflection.Metadata.Ecma335;
+using System.Runtime;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices.Marshalling;
+using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks.Sources;
+using System.Xml.Schema;
+using Microsoft.VisualBasic;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using _04_CRUD.Data;
+var builder = WebApplication.CreateBuilder(args);
+// Add service to the controller
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddControllers();
+var app = builder.Build();
+app.UseHttpsRedirection();
+app.MapControllers();
+app.Run();
