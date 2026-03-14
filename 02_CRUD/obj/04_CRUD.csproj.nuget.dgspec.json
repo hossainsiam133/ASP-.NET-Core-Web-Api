@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maraya Global\\Documents\\Gits\\C-Sharp-Tutorial-\\04_CRUD\\04_CRUD.csproj": {}
+    "C:\\Users\\Maraya Global\\Documents\\Gits\\ASP-.NET-Core-Web-Api\\02_CRUD\\04_CRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maraya Global\\Documents\\Gits\\C-Sharp-Tutorial-\\04_CRUD\\04_CRUD.csproj": {
+    "C:\\Users\\Maraya Global\\Documents\\Gits\\ASP-.NET-Core-Web-Api\\02_CRUD\\04_CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maraya Global\\Documents\\Gits\\C-Sharp-Tutorial-\\04_CRUD\\04_CRUD.csproj",
+        "projectUniqueName": "C:\\Users\\Maraya Global\\Documents\\Gits\\ASP-.NET-Core-Web-Api\\02_CRUD\\04_CRUD.csproj",
         "projectName": "04_CRUD",
-        "projectPath": "C:\\Users\\Maraya Global\\Documents\\Gits\\C-Sharp-Tutorial-\\04_CRUD\\04_CRUD.csproj",
+        "projectPath": "C:\\Users\\Maraya Global\\Documents\\Gits\\ASP-.NET-Core-Web-Api\\02_CRUD\\04_CRUD.csproj",
         "packagesPath": "C:\\Users\\Maraya Global\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maraya Global\\Documents\\Gits\\C-Sharp-Tutorial-\\04_CRUD\\obj\\",
+        "outputPath": "C:\\Users\\Maraya Global\\Documents\\Gits\\ASP-.NET-Core-Web-Api\\02_CRUD\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Maraya Global\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Maraya Global\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -88,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
