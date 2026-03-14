@@ -25,7 +25,6 @@ namespace WebApi.Migrations
                     table.PrimaryKey("PK_Employees", x => x.ID);
                 });
         }
-
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {

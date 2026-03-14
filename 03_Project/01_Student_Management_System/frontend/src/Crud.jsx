@@ -43,6 +43,7 @@ function Crud() {
     const [data, setData] = useState([]);
     useEffect(() => {
         getData();
+        // isActive
     }, []);
     const getData = () => {
         axios.get('http://localhost:5168/api/Employee')
